@@ -1,322 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>My Portfolio</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-
-    <link rel="stylesheet" href="css/aos.css">
-
-    <link rel="stylesheet" href="css/ionicons.min.css">
-
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="css/jquery.timepicker.css">
-
-
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Vivek Dubey — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-
     <!-- Calendly badge widget begin -->
-    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
     <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-    <script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/vd28/1-1-with-vivek?background_color=1a1a1a&text_color=ffffff', text: 'Book 1:1', color: '#0069ff', textColor: '#ffffff', branding: undefined }); }</script>
+    <script type="text/javascript">
+      window.onload = function () {
+        Calendly.initBadgeWidget({
+          url: 'https://calendly.com/vd28/1-1-with-vivek?background_color=0b1120&text_color=f9fafb',
+          text: 'Book 1:1',
+          color: '#22c55e',
+          textColor: '#f9fafb',
+          branding: undefined,
+        });
+      };
+    </script>
     <!-- Calendly badge widget end -->
-    
-    <div class="KW_progressContainer">
-      <div class="KW_progressBar">
 
-      </div>
-    </div>
-    <div class="page">
-    <nav id="colorlib-main-nav" role="navigation">
-      <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle active"><i></i></a>
-      <div class="js-fullheight colorlib-table">
-        <div class="img" style="background-image: url(images/author-2.jpg);"></div>
-        <div class="colorlib-table-cell js-fullheight">
-          <div class="row no-gutters">
-            <div class="col-md-12 text-center">
-              <h1 class="mb-4"><a href="index.html" class="logo">Vivek Dubey</a></h1>
-              <ul>
-                <li class="active"><a href="index.html"><span><small>01</small>Home</span></a></li>
-                <li><a href="about.html"><span><small>02</small>Resume</span></a></li>
-                <li><a href="services.html"><span><small>03</small>Services</span></a></li>
-                <li><a href="contact.html"><span><small>04</small>Contact</span></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </nav>
-
-    <div id="colorlib-page">
-      <header>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="colorlib-navbar-brand">
-                <a class="colorlib-logo" href="index.html"><span class="logo-img" style="background-image: url(images/person_1.jpg);"></span>Vivek Dubey</a>
-              </div>
-              <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
-            </div>
+    <div class="page-root">
+      <header class="site-header">
+        <div class="shell">
+          <div class="site-header-inner">
+            <a href="#top" class="brand">
+              <div class="brand-avatar" aria-hidden="true">VD</div>
+              <span class="brand-text">
+                <span class="brand-name">Vivek Dubey</span>
+                <span class="brand-tagline">Web developer & competitive programmer</span>
+              </span>
+            </a>
+            <nav class="site-nav" aria-label="Main">
+              <a href="#about">About</a>
+              <a href="#skills">Skills</a>
+              <a href="#projects">Projects</a>
+              <a href="#contact">Contact</a>
+            </nav>
           </div>
         </div>
       </header>
 
-      <section class="home-slider owl-carousel js-fullheight">
-        <div class="slider-item js-fullheight">
-          <div class="overlay"></div>
-          <div class="container">
-            <div class="row slider-text align-items-center text-center justify-content-center" data-scrollax-parent="true">
-              <div class="col-md-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-                <p><a href="#" class="scroll">Hello! I'm</a></p>
-                <h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Vivek Dubey</h1>
+      <main id="top">
+        <section class="hero">
+          <div class="shell hero-grid">
+            <div class="hero-main">
+              <p class="eyebrow">Hello, I’m</p>
+              <h1 class="hero-title">Vivek Dubey</h1>
+              <p class="hero-subtitle">
+                I build clean, performant web experiences and solve challenging problems through code. Currently focused on
+                modern JavaScript, React, and competitive programming.
+              </p>
+              <div class="hero-actions">
+                <a
+                  class="btn primary"
+                  href="https://drive.google.com/open?id=10QFFX3gL7yBlkDbKaCJt-0dmGSz02rTR"
+                  target="_blank"
+                  rel="noreferrer"
+                  >View résumé</a
+                >
+                <a class="btn ghost" href="#projects">View projects</a>
+              </div>
+              <div class="hero-meta">
+                <span>Based in Ranchi, India</span>
+                <span>Competitive programmer on <a href="https://codeforces.com/profile/codinginveins">Codeforces</a></span>
               </div>
             </div>
-          </div>
-        </div>
-
-        <div class="slider-item js-fullheight">
-          <div class="overlay"></div>
-          <div class="container">
-            <div class="row slider-text align-items-center text-center justify-content-center" data-scrollax-parent="true">
-              <div class="col-md-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-                <p><a href="#" class="scroll">I'm from Ranchi</a></p>
-                <h1 class="mb-3" data-scrollax="properties: {translateY: '30%', opacity: 1.6}">A Web Developer</h1>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- END slider -->
-
-      <section class="ftco-section about-section">
-        <div class="container">
-          <div class="row d-flex" data-scrollax-parent="true">
-            <div class="col-md-4 author-img" style="background-image: url(images/author-1.jpg);" data-scrollax=" properties: { translateY: '-70%'}"></div>
-            <div class="col-md-2"></div>
-            <div class="col-md-6 wrap ftco-animate">
-              <div class="about-desc">
-                <h1 class="bold-text">About</h1>
-                <div class="p-5">
-                  <h2 class="mb-5">Hi! I'm Vivek Dubey</h2>
-                  <p>I like solving challenging problems through my present skillset, learning and improvising, every day, every second.</p>
-                  <p><a href="https://drive.google.com/open?id=10QFFX3gL7yBlkDbKaCJt-0dmGSz02rTR">Checkout my resume</a></p>
-                  <ul class="ftco-footer-social list-unstyled mt-4">
-                    <li><a href="https://twitter.com/targaryen_vivek"><span class="icon-twitter"></span></a></li>
-                    <li><a href="https://www.facebook.com/profile.php?id=100010575937673"><span class="icon-facebook"></span></a></li>
-                    <li><a href="https://www.instagram.com/targaryen_blood/"><span class="icon-instagram"></span></a></li>
-                  </ul>
-                  <h5>Contact me here!</h5>
-                  <p>Email: <a href="mailto:dubey.vivek.2805@gmail.com">dubey.vivek.2805@gmail.com</a></p>
-                  <p>Phone: <a href="tel:+916207859344">+91-6207859344</a></p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="ftco-section">
-        <div class="container">
-          <div class="row justify-content-center mb-5 pb-5">
-            <div class="col-md-7 text-center heading-section ftco-animate">
-              <span>What i like to do</span>
-              <h2>My skills</h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-4 d-flex align-self-stretch ftco-animate">
-              <div class="media block-6 services p-3 py-4 d-block text-center">
-                <div class="icon mb-3"><span class="icon-layers"></span></div>
-                <div class="media-body">
-                  <h3 class="heading">React Apps</h3>
-                  <h3 class="heading">Web Apps</h3>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 d-flex align-self-stretch ftco-animate">
-              <div class="media block-6 services p-3 py-4 d-block text-center">
-                <div class="icon mb-3"><span class="icon-gears"></span></div>
-                <div class="media-body">
-                  <h3 class="heading">Competitive Programmer</h3>
-                  <h3 class="heading">Expert on <a href="https://codeforces.com/profile/codinginveins">Codeforces</a></h3>
-                  <h3 class="heading">Aspiring for Red</h3>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 d-flex align-self-stretch ftco-animate">
-              <div class="media block-6 services p-3 py-4 d-block text-center">
-                <div class="icon mb-3"><span class="icon-code"></span></div>
-                <div class="media-body">
-                  <h3 class="heading">HTML/CSS</h3>
-                  <h3 class="heading">JavaScript</h3>
-                  <h3 class="heading">GitHub</h3>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="ftco-section">
-        <div class="container">
-          <div class="row justify-content-center mb-5 pb-5">
-            <div class="col-md-7 text-center heading-section ftco-animate">
-              <span>Portfolio</span>
-              <h2>Works of a Newbie</h2>
-            </div>
-          </div>
-          <div class="row no-gutters">
-          <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
-            <a href="https://github.com/vd-07/snake-game" class="image d-flex justify-content-center align-items-center" style="background-image: url('images/snake.png'); " data-scrollax=" properties: { translateY: '-30%'}">
-              <div class="icon d-flex text-center justify-content-center align-items-center">
-                <span class="icon-search"></span>
-              </div>
-            </a>
-            <div class="text">
-              <h4 class="subheading">The Classical Snake Game</h4>
-              <h2 class="heading">Get ready to play the famous snake game and dive into your nostalgic moments of childhood</h2>
-              <p>This project has been completely implemented in Vanilla JavaScript. Visit the link below to see its implementation</p>
-              <p><a href="https://vd-07.github.io/snake-game/">Play!</a></p>
-              <p><a href="https://github.com/vd-07/snake-game">View Project</a></p>
-            </div>
-          </div>
-          <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
-            <a href="https://github.com/vd-07/Pan-Number-Extraction" class="image d-flex justify-content-center align-items-center" style="background-image: url('images/work-1.jpg'); " data-scrollax=" properties: { translateY: '-30%'}">
-              <div class="icon d-flex text-center justify-content-center align-items-center">
-                <span class="icon-search"></span>
-              </div>
-            </a>
-            <div class="text">
-              <h4 class="subheading">Pan Number Extraction and storage</h4>
-              <h2 class="heading">An Open-CV based project to detect Pan Card Number</h2>
-              <p>This project aims to solve the issue of Pan cards and other identification and important cards not being digital. Simply it uses Tessaract-OCR, after some basic routine workouts on the image, to extract the Pan Card number</p>
-              <p><a href="https://github.com/vd-07/Pan-Number-Extraction">View Project</a></p>
-            </div>
-          </div>
-          <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
-            <a href="#" class="image order-2 d-flex justify-content-center align-items-center" style="background-image: url('images/portfolio.png'); " data-scrollax=" properties: { translateY: '-30%'}">
-              <div class="icon d-flex text-center justify-content-center align-items-center">
-                <span class="icon-search"></span>
-              </div>
-            </a>
-            <div class="text order-1">
-              <h4 class="subheading">This Portfolio</h4>
-              <h2 class="heading">Trying to learn by implementing</h2>
-              <p>Well, I made this portfolio using an online template which is not a very heroic feet but yes I did learn something and aim to create my own, just as I get time. Till then try scrolling through my portfolio. :)</p>
-              <p><a href="#">View Project</a></p>
-            </div>
-          </div>
-        </div>
-        </div>
-      </section>
-
-      <section class="ftco-section ftco-counter" id="section-counter">
-        <div class="container">
-          <div class="row justify-content-center mb-5 pb-5">
-            <div class="col-md-7 text-center heading-section ftco-animate">
-              <span>Portfolio</span>
-              <h2>I am learning new things daily</h2>
-            </div>
-          </div>
-          <div class="row d-flex justify-content-start">
-            <div class="col-md-5 col-sm-5 counter-wrap ftco-animate">
-              <div class="block-18">
-                <div class="text">
-                  <span class="ftco-label">Languages</span>
-                  <strong class="number" data-number="8">0</strong>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row d-flex justify-content-center">
-            <div class="col-md-5 col-sm-5 counter-wrap ftco-animate">
-              <div class="block-18">
-                <div class="text">
-                  <span class="ftco-label">Project done</span>
-                  <strong class="number" data-number="3">0</strong>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row d-flex justify-content-end">
-            <div class="col-md-5 counter-wrap ftco-animate">
-              <div class="block-18">
-                <div class="text">
-                  <span class="ftco-label">Question Solved</span>
-                  <strong class="number" data-number="700">0</strong><strong>+</strong>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <footer class="ftco-footer ftco-bg-dark ftco-section">
-        <div class="container">
-          <div class="row mb-5 justify-content-center">
-            <div class="col-md-5 text-center">
-              <div class="ftco-footer-widget mb-5">
-                <ul class="ftco-footer-social list-unstyled">
-                  <li class="ftco-animate"><a href="https://twitter.com/targaryen_vivek"><span class="icon-twitter"></span></a></li>
-                  <li class="ftco-animate"><a href="https://www.facebook.com/profile.php?id=100010575937673"><span class="icon-facebook"></span></a></li>
-                  <li class="ftco-animate"><a href="https://www.instagram.com/targaryen_blood/"><span class="icon-instagram"></span></a></li>
+            <aside class="hero-card" aria-label="Quick profile">
+              <div class="hero-card-inner">
+                <p class="hero-card-title">At a glance</p>
+                <ul class="hero-list">
+                  <li><span class="dot"></span>Web developer & React enthusiast</li>
+                  <li><span class="dot"></span>Strong in algorithms & data structures</li>
+                  <li><span class="dot"></span>Fluent in C++ & JavaScript</li>
+                  <li><span class="dot"></span>700+ problems solved</li>
                 </ul>
               </div>
-              <div class="ftco-footer-widget">
-                <h2 class="mb-3">Contact Me</h2>
-                <p class="h3 email"><a href="mailto:dubey.vivek.2805@gmail.com">Email here</a></p>
+            </aside>
+          </div>
+        </section>
+
+        <section id="about" class="section">
+          <div class="shell section-grid">
+            <div class="section-heading">
+              <p class="eyebrow">About</p>
+              <h2>Who I am</h2>
+            </div>
+            <div class="section-body">
+              <p>
+                I’m a developer who enjoys turning ideas into fast, reliable software. I like solving challenging problems,
+                learning new tools, and continuously improving how I build things on the web.
+              </p>
+              <p>
+                My background combines competitive programming with practical web development. That means I care about both
+                algorithmic efficiency and user experience — writing code that is clean, maintainable, and pleasant to use.
+              </p>
+              <div class="info-grid">
+                <div>
+                  <h3>What I’m good at</h3>
+                  <ul>
+                    <li>Building responsive, accessible web interfaces</li>
+                    <li>Designing and implementing React applications</li>
+                    <li>Writing efficient solutions to algorithmic problems</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3>Outside of code</h3>
+                  <ul>
+                    <li>Exploring Linux tooling and workflows</li>
+                    <li>Practicing problem solving and contests</li>
+                    <li>Learning something new every day</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-12 text-center">
+        </section>
 
-              <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-      Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true" style="color: red;"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-      <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+        <section id="skills" class="section">
+          <div class="shell section-grid">
+            <div class="section-heading">
+              <p class="eyebrow">Skills</p>
+              <h2>What I work with</h2>
+            </div>
+            <div class="section-body">
+              <div class="pill-group">
+                <span class="pill">JavaScript (ES6+)</span>
+                <span class="pill">React</span>
+                <span class="pill">HTML & CSS</span>
+                <span class="pill">Git & GitHub</span>
+                <span class="pill">C++</span>
+                <span class="pill">Algorithms & Data Structures</span>
+              </div>
+              <p class="section-note">
+                I enjoy modern front-end workflows (component-based UIs, reusable patterns) and I’m comfortable working with a
+                modern stack (React, Vite, and TypeScript) when a project calls for it.
+              </p>
             </div>
           </div>
+        </section>
+
+        <section id="projects" class="section">
+          <div class="shell section-grid">
+            <div class="section-heading">
+              <p class="eyebrow">Projects</p>
+              <h2>Selected work</h2>
+            </div>
+            <div class="section-body projects-grid">
+              <article class="card">
+                <h3 class="card-title">Classic Snake Game</h3>
+                <p class="card-meta">Vanilla JavaScript · Canvas · Game logic</p>
+                <p>
+                  A browser-based implementation of the classic snake game, focusing on smooth keyboard controls, collision
+                  detection, and simple but responsive visuals.
+                </p>
+                <div class="card-actions">
+                  <a href="https://vd-07.github.io/snake-game/" target="_blank" rel="noreferrer">Play online</a>
+                  <a href="https://github.com/vd-07/snake-game" target="_blank" rel="noreferrer">View code</a>
+                </div>
+              </article>
+
+              <article class="card">
+                <h3 class="card-title">PAN Number Extraction</h3>
+                <p class="card-meta">OpenCV · OCR · Python</p>
+                <p>
+                  A small project that processes images of PAN cards, cleans them up using OpenCV routines, and extracts the
+                  PAN number using Tesseract OCR for easier digital storage.
+                </p>
+                <div class="card-actions">
+                  <a href="https://github.com/vd-07/Pan-Number-Extraction" target="_blank" rel="noreferrer">View code</a>
+                </div>
+              </article>
+
+              <article class="card">
+                <h3 class="card-title">This portfolio</h3>
+                <p class="card-meta">HTML · CSS · Modern layout</p>
+                <p>
+                  A lightweight, single-page portfolio built without heavy frameworks. It’s designed to be easy to read,
+                  fast to load, and simple to extend into a modern React/Vite stack if needed.
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact" class="section section-contact">
+          <div class="shell section-grid">
+            <div class="section-heading">
+              <p class="eyebrow">Contact</p>
+              <h2>Let’s get in touch</h2>
+            </div>
+            <div class="section-body contact-grid">
+              <div class="contact-main">
+                <p>
+                  Whether you want to talk about a project, competitive programming, or just say hi, feel free to reach out.
+                </p>
+                <ul class="contact-list">
+                  <li>
+                    <span class="label">Email</span>
+                    <a href="mailto:dubey.vivek.2805@gmail.com">dubey.vivek.2805@gmail.com</a>
+                  </li>
+                  <li>
+                    <span class="label">Phone</span>
+                    <a href="tel:+916207859344">+91-6207859344</a>
+                  </li>
+                  <li>
+                    <span class="label">Twitter</span>
+                    <a href="https://twitter.com/targaryen_vivek" target="_blank" rel="noreferrer">@targaryen_vivek</a>
+                  </li>
+                  <li>
+                    <span class="label">Instagram</span>
+                    <a href="https://www.instagram.com/targaryen_blood/" target="_blank" rel="noreferrer">@targaryen_blood</a>
+                  </li>
+                  <li>
+                    <span class="label">Blog</span>
+                    <a href="https://www.vdgenesis.blogspot.com" target="_blank" rel="noreferrer">vdgenesis.blogspot.com</a>
+                  </li>
+                  <li>
+                    <span class="label">Codeforces</span>
+                    <a href="https://codeforces.com/profile/codinginveins" target="_blank" rel="noreferrer">codinginveins</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="contact-note">
+                <p class="contact-note-title">Prefer a quick call?</p>
+                <p class="contact-note-body">
+                  Use the “Book 1:1” button in the corner to schedule a short call via Calendly at a time that works for you.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="shell site-footer-inner">
+          <p>© <span id="year"></span> Vivek Dubey. All rights reserved.</p>
         </div>
       </footer>
-
-      <!-- loader -->
-      <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
-
-      </div>
-
     </div>
 
-
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery-migrate-3.0.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.stellar.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/jquery.animateNumber.min.js"></script>
-    <script src="js/scrollax.min.js"></script>
-    <script src="js/bootstrap-datepicker.js"></script>
-    <script src="js/jquery.timepicker.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-    <script src="js/google-map.js"></script>
-    <script src="js/main.js"></script>
-
+    <script>
+      // keep the footer year up to date without extra libraries
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>
